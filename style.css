@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.title {
+    margin-left: 1.5rem;
+}
+
+.user-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-list {
+    width: 300px;
+}
+
+.name-list .user-name {
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.edit-user-button,
+.delete-user-button {
+    margin: 5px;
+}
+
+.add-user-container {
+    margin-left: 1.5rem;
+}
+
+.add-user-input {
+    width: 259px
+}
